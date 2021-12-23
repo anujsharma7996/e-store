@@ -44,7 +44,7 @@ function Product({ product }) {
           <img className="prod-img" alt="product" src={product.image} />
           <div>
             <button>
-              <Link to={`productpage/${product.id}`}>
+              <Link to={`/productpage/${product.id}`}>
                 <h3 className="prod-title">{product.title}</h3>
               </Link>
             </button>

@@ -9,13 +9,13 @@ function Navbar() {
   return (
     <div className="navbar">
       <button>
-        <Link to="/">
+        <Link to="/e-store/">
           <h2>E-Store</h2>
         </Link>
       </button>
 
       <button>
-        <Link to="/"> Products </Link>
+        <Link to="/e-store/"> Products </Link>
       </button>
 
       <span>|</span>

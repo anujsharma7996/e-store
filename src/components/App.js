@@ -24,12 +24,21 @@ class App extends React.Component {
 
           <Switch>
             <Route
+              // exact
+              path="/e-store"
+              render={(props) => {
+                return <Home products={products} />;
+              }}
+            />
+
+            <Route
               exact
               path="/"
               render={(props) => {
                 return <Home products={products} />;
               }}
             />
+
             <Route
               path="/productpage/:id"
               render={(props) => {
