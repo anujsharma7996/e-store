@@ -1,3 +1,34 @@
+E-Store ecommerce website
+(https://anujsharma7996.github.io/e-store/)
+
+Tools Used:
+- ReactJs
+- Redux
+- Toastify
+
+## Features
+1. Manage products on the website.
+2. Easily add, delete or modify existing products.
+3. Toast alerts for notifying the user of successful actions.
+
+## How to use?
+1. Browse through the products list on the home page.
+2. Click on the Cart icon to add product to cart.
+3. CLick on the Edit icon to edit the product.
+4. Click on the Delete icon to delete the product.
+5. Click on the product's title to view a detailed page of the product, where you can add it to cart or edit its details.
+6. Use the navigation bar to navigate through the website
+7. Add product page is used to add a product to the list.
+8. View your cart items on the Cart page and increase/decrease quantity by clicking on the +/- buttons, or simply remove the product from the cart by clicking the delete button.
+
+## Folder Structure
+![Folder Structure](/src/folderstructure.JPG)
+
+
+# Getting Started with Create React App
+
+This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
