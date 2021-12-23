@@ -11,8 +11,6 @@ function ProductPage(props) {
   const products = useSelector((state) => state.products);
   const [editMode, setEditMode] = useState(false);
 
-  // console.log("PARSED IDDD", parseFloat(id));
-
   id = parseFloat(id);
 
   const index = products.findIndex((prod) => prod.id === id);
@@ -33,11 +31,9 @@ function ProductPage(props) {
 
   const handleInput = (e) => {
     setDescriptionInput(e.target.value);
-    //console.log(e.target.value);
   };
 
   const handleChange = () => {
-    // console.log("HANDLECATTRR", descriptionInput);
     dispatch(updateDescription(id, descriptionInput));
     setEditMode(!editMode);
   };

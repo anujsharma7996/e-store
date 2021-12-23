@@ -25,7 +25,6 @@ function Product({ product }) {
 
   const handleInput = (e) => {
     setDescriptionInput(e.target.value);
-    //console.log(e.target.value);
   };
 
   const handleChange = () => {
@@ -103,11 +102,5 @@ function Product({ product }) {
     </div>
   );
 }
-
-// function mapStateToProps(state) {
-//   return {
-//     products: state.products,
-//   };
-// }
 
 export default Product;

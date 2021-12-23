@@ -5,7 +5,6 @@ import { useDispatch, useSelector } from "react-redux";
 import { useState } from "react";
 
 function Home() {
-  //const { products } = props;
   const [sort, setSort] = useState(true);
 
   const products = useSelector((state) => state.products);
@@ -13,7 +12,6 @@ function Home() {
   const dispatch = useDispatch();
 
   function handleSort(e) {
-    // console.log("COMPS", products);
     setSort(!sort);
     dispatch(sortProducts(products, sort));
   }
@@ -36,11 +34,5 @@ function Home() {
     </div>
   );
 }
-
-// function mapStateToProps() {
-//   return {
-//     products: state.products,
-//   };
-// }
 
 export default Home;
